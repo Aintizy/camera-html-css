@@ -1,0 +1,176 @@
+body{
+    background-color: #ffffff;
+}
+.camera{
+    height: 400px;
+    width: 750px;
+    margin: 10%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    position: relative;
+    background-color: #201f1f;
+    background-image: linear-gradient(150deg, #686868,#242121, #201f1f);
+    box-shadow: 20px 30px 40px 10px #888888;
+}
+.camera_btn1{
+    height: 18px;
+    width: 80px;
+    border: 3px solid black;
+    background-color: #615858;
+    border-radius: 5px;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+.btn_holder1{
+    height: 3px;
+    width: 61px;
+    border: 3px solid black;
+    background-color: #252323;
+    border-bottom: none;
+    position: absolute;
+    top: 18.5px;
+    left: 6px;
+}
+.camera_btn2{
+    height: 30px;
+    width: 120px;
+    border: 3px solid black;
+    background-color: #615858;
+    border-radius: 5px;
+    position: absolute;
+    top: -50px;
+    left: 140px;
+}
+.btn_holder2{
+    height: 12px;
+    width: 101px;
+    border: 3px solid black;
+    background-color: #252323;
+    border-bottom: none;
+    position: absolute;
+    top: 30px;
+    left: 6px;
+}
+.camera_btn3{
+    height: 18px;
+    width: 80px;
+    border: 3px solid black;
+    background-color: #353232;
+    border-radius: 5px;
+    position: absolute;
+    top: -35px;
+    right: 50px;
+}
+.btn_holder3{
+    height: 10px;
+    width: 61px;
+    border: 3px solid black;
+    background-color: #252323;
+    border-bottom: none;
+    position: absolute;
+    top: 18.5px;
+    right: 6px;
+}
+.upper_line{
+    height: 3px;
+    width: 100%;
+    background-color: #524f4f;
+    position: absolute;
+    top: 50px;
+}
+.lower_line{
+    height: 3px;
+    width: 100%;
+    background-color: #524f4f;
+    position: absolute;
+    bottom: 50px;
+}
+
+.camera_lens{
+    position: absolute;
+    top: 65px;
+    right: 120px;
+    
+}
+.lens1{
+    height: 350px;
+    width: 350px;
+    background-color: #615858;
+    border: 10px solid #423e3e;
+    border-radius: 50%;
+   
+}
+.lens2{
+    height: 310px;
+    width: 310px;
+    border: 10px solid rgb(154, 153, 153);
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    background-image: linear-gradient(130deg, white, red);
+    box-shadow: 1px 20px 30px 10px #535353;
+}
+
+.lens3{
+    height: 200px;
+    width: 200px;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    background-color: black;
+}
+.qtr_circle1{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(170deg, white, purple, red);
+    border-radius: 90px 0px 0px 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.qtr_circle2{
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(-15deg, white, rgb(77, 135, 26), red);
+    border-radius: 0px 0px 90px 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.flash{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 210px;
+    bottom: 60px;
+    background-image: radial-gradient(white, rgb(192, 104, 4));
+}
+.cover{
+    height: 150px;
+    width: 235px;
+    border: 3px solid #524f4f;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #201f1f;
+    background-image: linear-gradient(115deg, #686868,#423c3c, #201f1f);
+    transform: perspective(300px) rotatex(50deg);
+    position: absolute;
+    top: -140px;
+    right: 182px;
+}
+
+.double_line{
+    height: 203px;
+    width: 235px;
+    border: 3px solid #524f4f;
+    background-color: #151414;
+    background-image: linear-gradient(115deg, #555555,#332f2f, #151414);
+    transform: perspective(900px) rotatex(50deg);
+    position: absolute;
+    right: 180.5px;
+    top: -47px;
+}
